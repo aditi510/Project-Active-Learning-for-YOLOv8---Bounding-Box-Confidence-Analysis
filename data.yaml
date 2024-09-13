@@ -1,0 +1,13 @@
+train: D:\Courses\pythonProject\pythonProjectCV\Datasets\Car_Pedestrian_detection.v1i.yolov8/train/images
+val: D:\Courses\pythonProject\pythonProjectCV\Datasets\Car_Pedestrian_detection.v1i.yolov8/valid/images
+test: D:\Courses\pythonProject\pythonProjectCV\Datasets\Car_Pedestrian_detection.v1i.yolov8/test/images
+
+nc: 2
+names: ['Cars', 'Pedestrian']
+
+roboflow:
+  workspace: image-detection-bbs6q
+  project: car_pedestrian_detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/image-detection-bbs6q/car_pedestrian_detection/dataset/1
